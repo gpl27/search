@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+h1, div, form {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+form, input[type=text] {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    min-height: 48px;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+}
+    .link-box {
+        min-width: 72px;
+        min-height: 48px;
+        width: 10%;
+        height: 50%;
+    }
+    .link {
+        display: block;
+        margin-top: 10px;
+        color: #1E1E24;
+    }
+
+.title {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.search {
+    height: 20%;
+}
+
+.search-advanced {
+    height: 400px;
+}
+
+.search-flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-text {
+    min-width: 380px;
+    width: 60%;
+    height: 30px;
+}
+input[type=text] {
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #5f7b96;
+    color: #1d1c1c
+}
+
+.input-text-advanced {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+.input-text-advanced-bar {
+    width: 70%;
+    height: 30px;
+}
+.label {
+    width: 20%;
+}
+
+.input-button {
+    height: 36px;
+}
+input[type=submit] {
+    height: 36px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 45%;
+}
+.bottom-advanced {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 120px;
+}
+.extra {
+    text-align: center;
+}
