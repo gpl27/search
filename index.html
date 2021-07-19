@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fill no-spaces">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
         <link href="icons/search.svg" rel="icon">
         <title>Search</title>
     </head>
-    <body>
-        <div class="main-container">
-            <div class="nav-bar">
-                <div class="link-box">
-                    <a class="link" href="image-search.html">Image</a>
+    <body class="fill no-spaces text">
+        <div class="flex-column fill">
+            <div class="nav flex-row">
+                <div class="nav-box">
+                    <a class="nav-link link" href="image-search.html">Image</a>
                 </div>
-                <div class="link-box">
-                    <a class="link" href="advanced-search.html">Advanced</a>
+                <div class="nav-box">
+                    <a class="nav-link link" href="advanced-search.html">Advanced</a>
                 </div>
             </div>
-            <div class="title">
+            <div class="title flex-row">
                 <div>
-                    <h1>🅱oggle</h1>
+                    <h1 class="fill no-spaces">🅱oogle</h1>
                 </div>
             </div>
-            <div class="search">
-                <form action="https://google.com/search">
-                    <div class="search-flex">
-                        <div class="input-text">
-                            <input type="text" name="q">
+            <div class="search-div">
+                <form class="fill no-spaces" action="https://google.com/search">
+                    <div class="search flex-column fill">
+                        <div>
+                            <input class="search-bar" type="text" name="q">
                         </div>
-                        <div class="input-button">
-                            <input type="submit" value="Google Search" name="btnK">
-                            <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                        <div>
+                            <input class="search-button" type="submit" value="Boogle Search" name="btnK">
+                            <input class="search-button" type="submit" value="I'm Feeling Lucky" name="btnI">
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="bottom">
+            <div class="bottom flex-column">
                 <div>
                     <p>Searchin' since 2021</p>
                 </div>
                 <div>
+                    <div class="break"></div>
                     <p><a class="link" href="extra.html">Extra Info</a></p>
                 </div>
             </div>
